@@ -6,9 +6,9 @@ require_once 'twilio-php/src/Twilio/autoload.php';
 use Twilio\Rest\Client;
 
 // Twilio credentials
-$accountSid = 'AC04755ef929b01042bd2ee7c9be5f8e93';
-$authToken = '2e5a842b042cf2ae4e75d6ea003b60a2';
-$twilioPhoneNumber = '+15042221608';
+$accountSid = ''; //your accountSid
+$authToken = ''; //your authToken
+$twilioPhoneNumber = ''; // your twilioPhoneNumber
 
 $client = new Client($accountSid, $authToken);
 
